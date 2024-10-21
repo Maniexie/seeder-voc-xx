@@ -1,0 +1,20 @@
+{
+  "name": "seeder-voc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-db-connection": "node index.js check-db-connection",
+    "reset-db": "node index.js reset-db",
+    "bulk-insert": "node index.js bulk-insert",
+    "get-all": "node index.js get-all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.7.1"
+  }
+}
